@@ -35,7 +35,6 @@ public class Main {
 
 
 
-
         System.out.println(individualCustomer.toString());
         System.out.println("product addition...");
         Product cycle = new Product("Merida", new Double(1000));

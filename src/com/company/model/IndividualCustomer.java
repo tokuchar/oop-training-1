@@ -2,8 +2,10 @@ package com.company.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
-public class IndividualCustomer implements CustomerProductUsage {
+public class IndividualCustomer extends Customer implements CustomerProductUsage {
+    UUID customerId;
     String name;
     String surname;
     Address address;
@@ -19,6 +21,7 @@ public class IndividualCustomer implements CustomerProductUsage {
         this.address = address;
         this.contact = contact;
         this.productList = new ArrayList<>();
+        this.customerId = UUID.randomUUID();
     }
 
     @Override

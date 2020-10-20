@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.UUID;
 
 public class IndividualCustomer extends Customer implements CustomerProductUsage {
-    UUID customerId;
     String name;
     String surname;
     Address address;

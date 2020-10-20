@@ -1,7 +1,7 @@
 package com.company.api;
 
 import com.company.dto.AccountApplication;
-import com.company.model.IndividualCustomer;
+import com.company.model.Customer;
 
 public class CustomerApi implements CustomerApiInterface {
     @Override
@@ -10,8 +10,10 @@ public class CustomerApi implements CustomerApiInterface {
     }
 
     @Override
-    public IndividualCustomer getCustomer(String pesel) {
+    public Customer getCustomer(String pesel) {
         return null;
     }
+
+
 
 }

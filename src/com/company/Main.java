@@ -32,8 +32,10 @@ public class Main {
                 contacts);
 
         CustomerProductUsage secondCustomer = new Company();
+        Company company = (Company) new Customer("balbalbla");
+        Customer customer = company;
 
-
+        individualCustomer.addBonus("fuel rabat");
 
         System.out.println(individualCustomer.toString());
         System.out.println("product addition...");
@@ -48,5 +50,4 @@ public class Main {
         }
 
     }
-
 }

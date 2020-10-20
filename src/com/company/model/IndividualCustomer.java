@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class IndividualCustomer extends Customer implements CustomerProductUsage {
+public final class IndividualCustomer extends Customer implements CustomerProductUsage {
     String name;
     String surname;
     Address address;

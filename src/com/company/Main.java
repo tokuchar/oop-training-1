@@ -32,10 +32,11 @@ public class Main {
                 contacts);
 
         CustomerProductUsage secondCustomer = new Company();
-        Company company = (Company) new Customer("balbalbla");
+        Company company = new Company();
         Customer customer = company;
 
         individualCustomer.addBonus("fuel rabat");
+        individualCustomer.hey("hey");
 
         System.out.println(individualCustomer.toString());
         System.out.println("product addition...");

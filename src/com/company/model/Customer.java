@@ -2,7 +2,7 @@ package com.company.model;
 
 import java.util.UUID;
 
-public class Customer {
+public abstract class Customer {
     protected String bonus;
     protected UUID customerId;
     protected String description;
@@ -17,5 +17,13 @@ public class Customer {
     }
 
     public Customer() {
+    }
+
+    public final void hey(final String message){
+        System.out.println(message);
+    }
+
+    public static void foo(){
+        System.out.println("foo fo fo");
     }
 }
